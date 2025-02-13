@@ -24,7 +24,7 @@ class MyRLAgent(QLearning):
         raise NotImplementedError
 
 # TODO: Give your agent a NAME 
-name = "PLEASE NAME ME D:"
+name = ??? # TODO: PLEASE NAME ME D:
 
 
 # TODO: Determine how many states that your agent will be using

@@ -19,7 +19,7 @@ class MyNRLAgent(LemonadeAgent):
     
 
 # TODO: Give your agent a NAME 
-name = "PLEASE NAME ME D:"
+name = ??? # TODO: PLEASE NAME ME D:
 
 
 ################### SUBMISSION #####################
