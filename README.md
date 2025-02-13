@@ -6,6 +6,29 @@ Get ready to compete in our first non-chicken game: The Lemonade Stand Game! You
 ## Setup and Installation
 Follow these steps to set up your environment and install the necessary package for the lab.
 
+**IMPORTANT: Please install/use a version of `Python >= 3.10`**
+To check which version of Python you're using please run
+```bash
+python --version
+```
+
+If you installed Python 3.11 but your computer defaults to Python 3.9 you can initialize the virtual environment below to use 
+Python 3.11 instead by running:
+
+If you own a Mac 
+```bash
+python3.11 -m venv .venv
+```
+Instead of 
+```bash
+python3 -m venv .venv
+```
+
+If you own a Windows 
+```bash
+py -3.11 -m venv .venv
+```
+
 ### Step 1: Git Clone the Repository 
 Open your terminal and navigate to where you want to clone the repository
 ```bash 
@@ -49,5 +72,5 @@ For the `Lemonade Agent`s here are a few methods that you may find helpful!
 - `self.get_opp2_last_action()` is a method that returns a your second opponent's last action from the previous round.
 - `self.get_opp2_last_util()` is a method that returns a your second opponent's last utility from the previous round.
 
-
+## If you're submitting remotely
 PLEASE MAKE SURE TO SUBMIT YOUR AND YOUR PARTNER's CSLOGIN ON SEPERATE LINES IN `cs_login.txt`
