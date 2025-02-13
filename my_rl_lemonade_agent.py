@@ -24,7 +24,7 @@ class MyRLAgent(QLearning):
         raise NotImplementedError
 
 # TODO: Give your agent a NAME 
-name = ??? # TODO: PLEASE NAME ME D:
+name = ... # TODO: PLEASE NAME ME D:
 
 
 # TODO: Determine how many states that your agent will be using
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     rl_agent_submission.set_training_mode(False)
     arena = LemonadeArena(
         num_rounds=1000,
-        timeout=1,
+        timeout=10,
         players=[
             rl_agent_submission,
             StickAgent("Bug1"),

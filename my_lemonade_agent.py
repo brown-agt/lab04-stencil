@@ -19,7 +19,7 @@ class MyNRLAgent(LemonadeAgent):
     
 
 # TODO: Give your agent a NAME 
-name = ??? # TODO: PLEASE NAME ME D:
+name = ... # TODO: PLEASE NAME ME D:
 
 
 ################### SUBMISSION #####################
@@ -30,7 +30,7 @@ nrl_agent_submission = MyNRLAgent(name)
 if __name__ == "__main__":
     arena = LemonadeArena(
         num_rounds=1000,
-        timeout=1,
+        timeout=10,
         players=[
             nrl_agent_submission,
             StickAgent("Bug1"),

@@ -46,7 +46,7 @@ if __name__ == "__main__":
     else:
         arena = LemonadeArena(
         num_rounds=1000,
-        timeout=1,
+        timeout=10,
         players=[
             agent_submission,
             StickAgent("Bug1"),
