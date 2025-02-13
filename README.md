@@ -74,3 +74,9 @@ For the `Lemonade Agent`s here are a few methods that you may find helpful!
 
 ## If you're submitting remotely
 PLEASE MAKE SURE TO SUBMIT YOUR AND YOUR PARTNER's CSLOGIN ON SEPERATE LINES IN `cs_login.txt`
+
+## For those in the in-person Lab
+NOTE: To run your agent locally you can just run it as normal, to run it in the lab for the live competition please run it with arguments:
+```
+python3.10 my_agent.py --ip 'example_ip_on_board' --join_server
+```
