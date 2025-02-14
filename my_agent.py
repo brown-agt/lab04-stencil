@@ -50,9 +50,9 @@ if __name__ == "__main__":
         players=[
             agent_submission,
             StickAgent("Bug1"),
-            StickAgent("Bug2"),
-            StickAgent("Bug3"),
-            StickAgent("Bug4")
+            ReserveAgent("Bug2"),
+            DecrementAgent("Bug3"),
+            IncrementAgent("Bug4")
         ])
         
         # NOTE: FEEL FREE TO EDIT THE AGENTS HERE TO TEST AGAINST A DIFFERENT DISTRIBUTION OF AGENTS. A COUPLE OF EXAMPLE AGENTS
