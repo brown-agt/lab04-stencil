@@ -1,6 +1,6 @@
-from my_rl_lemonade_agent import rl_agent_submission 
+# from my_rl_lemonade_agent import rl_agent_submission 
 import argparse
-from my_lemonade_agent import nrl_agent_submission 
+# from my_lemonade_agent import nrl_agent_submission 
 from agt_server.agents.base_agents.lemonade_agent import LemonadeAgent
 from agt_server.local_games.lemonade_arena import LemonadeArena
 from agt_server.agents.test_agents.lemonade.stick_agent.my_agent import StickAgent
@@ -11,7 +11,7 @@ from agt_server.agents.test_agents.lemonade.increment_agent.my_agent import Incr
 # NOTE: The README will contain helpful methods for implementing your agent, please take a look at it!
 class MyAgent(LemonadeAgent):
     def setup(self):
-        self.name = 
+        self.name = ???
         pass
 
     def get_action(self):
@@ -21,13 +21,14 @@ class MyAgent(LemonadeAgent):
         pass
     
 
-# TODO: Give your agent a NAME 
-name = ??? # TODO: PLEASE NAME ME D:
-# NOTE: If you want to submit MyAgent please set agent_submission = MyAgent(name)
+# # TODO: Give your agent a NAME 
+# name = ??? # TODO: PLEASE NAME ME D:
+# # NOTE: If you want to submit MyAgent please set agent_submission = MyAgent(name)
 
 ################### SUBMISSION #####################
 # TODO: Set to your RL Agent by default, change it to whatever you want as long as its a agent that inherits LemonadeAgent
-agent_submission = rl_agent_submission
+# agent_submission = rl_agent_submission
+agent_submission = ???
 ################### SUBMISSION #####################
 
 if __name__ == "__main__":
