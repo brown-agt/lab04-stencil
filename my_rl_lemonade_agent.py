@@ -39,8 +39,7 @@ DISCOUNT_FACTOR = 0.90
 EXPLORATION_RATE = 0.05
 
 ################### SUBMISSION #####################
-rl_agent_submission = MyRLAgent(name, NUM_POSSIBLE_STATES, NUM_POSSIBLE_ACTIONS,
-                                   INITIAL_STATE, LEARNING_RATE, DISCOUNT_FACTOR, EXPLORATION_RATE, False, "my-qtable.npy")
+rl_agent_submission = MyRLAgent(name, NUM_POSSIBLE_STATES, NUM_POSSIBLE_ACTIONS, INITIAL_STATE, LEARNING_RATE, DISCOUNT_FACTOR, EXPLORATION_RATE, False, "my-qtable.npy")
 ####################################################
 
 if __name__ == "__main__":
