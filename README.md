@@ -57,7 +57,7 @@ pip install --upgrade agt-server
 ```
 
 ## Agent Methods 
-For the `Lemonade Agent`s here are a few methods that you may find helpful! 
+For the `Simultaneous Auction Agent`s here are a few methods that you may find helpful! 
 - `self.calculate_utils(a1, a2, a3)` is a method that takes in player 1's action (`a1`) and player 2's action (`a2`) and player 3's action (`a3`) and returns a list [`u1`, `u2`, `u3`] where `u1` is player1's utility, `u2` is player 2's utility, and `u3` is player 2's utility. 
 - `self.get_action_history()` is a method that returns a list of your actions from previous rounds played.
 - `self.get_util_history()` is a method that returns a list of your utility from previous rounds played. 
@@ -72,10 +72,6 @@ For the `Lemonade Agent`s here are a few methods that you may find helpful!
 - `self.get_opp2_last_action()` is a method that returns a your second opponent's last action from the previous round.
 - `self.get_opp2_last_util()` is a method that returns a your second opponent's last utility from the previous round.
 
-## If you're submitting remotely
-PLEASE MAKE SURE TO SUBMIT YOUR AND YOUR PARTNER's CSLOGIN ON SEPERATE LINES IN `cs_login.txt`
-
-## For those in the in-person Lab
 NOTE: To run your agent locally you can just run it as normal, to run it in the lab for the live competition please run it with arguments:
 ```
 python3.10 my_agent.py --ip 'example_ip_on_board' --join_server
